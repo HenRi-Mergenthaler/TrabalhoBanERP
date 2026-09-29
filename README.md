@@ -55,19 +55,17 @@ A aplicação será iniciada.
 
 ## Executável
 
-Caso seja disponibilizado um executável compilado, ele poderá ser encontrado na pasta:
+O arquivo executavel pronto para execução em WINDOWS poderá ser encontrado na pasta:
 
 ```text
-bin\Release\
+Release\
 ```
 
-Nesse caso, execute o arquivo:
+Execute o arquivo:
 
 ```text
-NomeDoProjeto.exe
+TrabalhoBan.exe
 ```
-
-> Para executar o projeto pelo Visual Studio, recomenda-se utilizar a configuração **Release**.
 
 ## Estrutura
 
@@ -92,8 +90,6 @@ Projeto/
 
 ## Observação
 
-Caso o projeto utilize recursos externos, banco de dados ou configurações específicas, verifique se os arquivos de configuração necessários estão presentes antes da execução.
+O projeto utiliza o Supabase como plataforma para hospedar um banco PostgreSQL de forma remota. 
 
 ---
-
-**Projeto desenvolvido para fins acadêmicos.**
