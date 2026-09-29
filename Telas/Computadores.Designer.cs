@@ -1,0 +1,237 @@
+﻿namespace TrabalhoBan.Telas
+{
+    partial class Computadores
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código gerado pelo Designer de Componentes
+
+        private void InitializeComponent()
+        {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            panel1 = new Panel();
+            btnRemover = new Button();
+            btnAdicionar = new Button();
+            button1 = new Button();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            ViewComputadores = new DataGrid();
+            Codigo = new DataGridViewTextBoxColumn();
+            processador = new DataGridViewTextBoxColumn();
+            placa_de_video = new DataGridViewTextBoxColumn();
+            Memoria_ram = new DataGridViewTextBoxColumn();
+            status = new DataGridViewTextBoxColumn();
+            valor_hora = new DataGridViewTextBoxColumn();
+            valor_corujao = new DataGridViewTextBoxColumn();
+            label2 = new Label();
+            btnManutencao = new Button();
+            lblResumo = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ViewComputadores).BeginInit();
+            SuspendLayout();
+            panel1.BackColor = Color.Navy;
+            panel1.Controls.Add(lblResumo);
+            panel1.Controls.Add(btnManutencao);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(btnRemover);
+            panel1.Controls.Add(btnAdicionar);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1659, 130);
+            panel1.TabIndex = 0;
+            btnRemover.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnRemover.BackColor = Color.BlueViolet;
+            btnRemover.FlatAppearance.BorderSize = 0;
+            btnRemover.FlatStyle = FlatStyle.Flat;
+            btnRemover.ForeColor = Color.White;
+            btnRemover.Location = new Point(1378, 81);
+            btnRemover.Name = "btnRemover";
+            btnRemover.Size = new Size(130, 23);
+            btnRemover.TabIndex = 6;
+            btnRemover.Text = "Remover";
+            btnRemover.UseVisualStyleBackColor = false;
+            btnRemover.Click += btnRemover_Click;
+            btnAdicionar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnAdicionar.BackColor = Color.BlueViolet;
+            btnAdicionar.FlatAppearance.BorderSize = 0;
+            btnAdicionar.FlatStyle = FlatStyle.Flat;
+            btnAdicionar.ForeColor = Color.White;
+            btnAdicionar.Location = new Point(1514, 81);
+            btnAdicionar.Name = "btnAdicionar";
+            btnAdicionar.Size = new Size(130, 23);
+            btnAdicionar.TabIndex = 5;
+            btnAdicionar.Text = "Adicionar Computador";
+            btnAdicionar.UseVisualStyleBackColor = false;
+            btnAdicionar.Click += btnAdicionar_Click;
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            button1.BackColor = Color.BlueViolet;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(240, 81);
+            button1.Name = "button1";
+            button1.Size = new Size(102, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Pesquisar";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            textBox1.BackColor = Color.BlueViolet;
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.ForeColor = Color.White;
+            textBox1.Location = new Point(22, 81);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(212, 23);
+            textBox1.TabIndex = 3;
+            textBox1.KeyDown += textBox1_KeyDown;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 20F);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(3, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(193, 37);
+            label1.TabIndex = 1;
+            label1.Text = "Computadores";
+            ViewComputadores.BackgroundColor = Color.FromArgb(0, 0, 64);
+            ViewComputadores.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(0, 0, 192);
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = Color.White;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            ViewComputadores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            ViewComputadores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            ViewComputadores.Columns.AddRange(new DataGridViewColumn[] { Codigo, processador, placa_de_video, Memoria_ram, status, valor_hora, valor_corujao });
+            ViewComputadores.ColunasSemEdicao = "status";
+            ViewComputadores.DatabaseName = "computador";
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.Navy;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            ViewComputadores.DefaultCellStyle = dataGridViewCellStyle2;
+            ViewComputadores.Dock = DockStyle.Fill;
+            ViewComputadores.EditMode = DataGridViewEditMode.EditOnEnter;
+            ViewComputadores.EnableHeadersVisualStyles = false;
+            ViewComputadores.GridColor = Color.FromArgb(128, 128, 255);
+            ViewComputadores.Location = new Point(0, 130);
+            ViewComputadores.Margin = new Padding(10);
+            ViewComputadores.Name = "ViewComputadores";
+            ViewComputadores.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.Blue;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            ViewComputadores.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            ViewComputadores.Size = new Size(1659, 673);
+            ViewComputadores.TabIndex = 4;
+            ViewComputadores.Salvou += ViewComputadores_Salvou;
+            ViewComputadores.AllowUserToAddRows = false;
+            ViewComputadores.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            ViewComputadores.CellFormatting += ViewComputadores_CellFormatting;
+            Codigo.DataPropertyName = "codigo";
+            Codigo.HeaderText = "Codigo";
+            Codigo.Name = "Codigo";
+            processador.DataPropertyName = "processador";
+            processador.HeaderText = "Processador";
+            processador.Name = "processador";
+            processador.Width = 130;
+            placa_de_video.DataPropertyName = "placa_de_video";
+            placa_de_video.HeaderText = "Placa de Video";
+            placa_de_video.Name = "placa_de_video";
+            placa_de_video.Width = 130;
+            Memoria_ram.DataPropertyName = "memoria_ram";
+            Memoria_ram.HeaderText = "Memoria Ram";
+            Memoria_ram.Name = "Memoria_ram";
+            status.DataPropertyName = "status";
+            status.HeaderText = "Status";
+            status.Name = "status";
+            status.ReadOnly = true;
+            valor_hora.DataPropertyName = "valor_hora";
+            valor_hora.HeaderText = "Valor Hora";
+            valor_hora.Name = "valor_hora";
+            valor_corujao.DataPropertyName = "valor_corujao";
+            valor_corujao.HeaderText = "Valor Corujao";
+            valor_corujao.Name = "valor_corujao";
+            label2.AutoSize = true;
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(22, 107);
+            label2.Name = "label2";
+            label2.Size = new Size(186, 15);
+            label2.TabIndex = 7;
+            label2.Text = "Double Click na celula para editar.";
+            btnManutencao.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnManutencao.BackColor = Color.BlueViolet;
+            btnManutencao.FlatAppearance.BorderSize = 0;
+            btnManutencao.FlatStyle = FlatStyle.Flat;
+            btnManutencao.ForeColor = Color.White;
+            btnManutencao.Location = new Point(1242, 81);
+            btnManutencao.Name = "btnManutencao";
+            btnManutencao.Size = new Size(130, 23);
+            btnManutencao.TabIndex = 8;
+            btnManutencao.Text = "Manutenção";
+            btnManutencao.UseVisualStyleBackColor = false;
+            btnManutencao.Click += btnManutencao_Click;
+            lblResumo.AutoSize = true;
+            lblResumo.Font = new Font("Segoe UI", 10F);
+            lblResumo.ForeColor = Color.White;
+            lblResumo.Location = new Point(22, 45);
+            lblResumo.Name = "lblResumo";
+            lblResumo.Size = new Size(0, 19);
+            lblResumo.TabIndex = 9;
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(ViewComputadores);
+            Controls.Add(panel1);
+            Name = "Computadores";
+            Size = new Size(1659, 803);
+            Load += Computadores_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)ViewComputadores).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private Label label1;
+        private Button button1;
+        private TextBox textBox1;
+        private Button btnRemover;
+        private Button btnAdicionar;
+        private DataGrid ViewComputadores;
+        private DataGridViewTextBoxColumn Codigo;
+        private DataGridViewTextBoxColumn processador;
+        private DataGridViewTextBoxColumn placa_de_video;
+        private DataGridViewTextBoxColumn Memoria_ram;
+        private DataGridViewTextBoxColumn status;
+        private DataGridViewTextBoxColumn valor_hora;
+        private DataGridViewTextBoxColumn valor_corujao;
+        private Label label2;
+        private Button btnManutencao;
+        private Label lblResumo;
+    }
+}
