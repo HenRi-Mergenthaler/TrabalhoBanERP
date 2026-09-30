@@ -4,6 +4,8 @@ Aplicação desktop desenvolvida em **C# com Windows Forms**, utilizando **.NET 
 
 Backup do banco de dados está em ```backup.dump```
 
+Biuld com executável esta em ```Biuld Erp LAN.zip```, precisa extrair e rodar o exe, o Windows dara aviso de segurança mas so clicar em mais opções e em executar mesmo assim.
+
 ## Requisitos
 
 Para executar o projeto, é necessário ter:
