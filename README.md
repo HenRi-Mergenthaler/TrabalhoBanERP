@@ -1,6 +1,7 @@
 # Projeto WinForms
 
 Aplicação desktop desenvolvida em **C# com Windows Forms**, utilizando **.NET Framework 4.8**.
+Backup do banco de dados está em ```backup.dump```
 
 ## Requisitos
 
