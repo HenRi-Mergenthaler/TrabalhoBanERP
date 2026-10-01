@@ -21,7 +21,7 @@ namespace TrabalhoBan.Telas.Auxiliares
             this.computadores = computadores;
         }
 
-        private async void SalvarComputador()
+        private async Task SalvarComputador()
         {
             string processador = txtProcessador.Text;
             string placaDeVideo = txtPlacaDeVideo.Text;
@@ -61,9 +61,9 @@ namespace TrabalhoBan.Telas.Auxiliares
             return table.Rows[0].Field<long>("max");
         } 
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            SalvarComputador();
+            await SalvarComputador();
             computadores.PopularComputadores();
             this.Close();
         }

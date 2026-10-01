@@ -64,6 +64,9 @@
             groupBox10.SuspendLayout();
             groupBox12.SuspendLayout();
             SuspendLayout();
+            // 
+            // panel1
+            // 
             panel1.BackColor = Color.FromArgb(0, 0, 64);
             panel1.Controls.Add(button1);
             panel1.Dock = DockStyle.Bottom;
@@ -71,6 +74,9 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(977, 45);
             panel1.TabIndex = 1;
+            // 
+            // button1
+            // 
             button1.BackColor = Color.Indigo;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
@@ -82,17 +88,29 @@
             button1.Text = "Salvar";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // splitContainer1
+            // 
             splitContainer1.Dock = DockStyle.Fill;
             splitContainer1.Location = new Point(0, 0);
             splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
             splitContainer1.Panel1.Controls.Add(groupBox1);
             splitContainer1.Panel1.RightToLeft = RightToLeft.No;
+            // 
+            // splitContainer1.Panel2
+            // 
             splitContainer1.Panel2.Controls.Add(groupBox2);
             splitContainer1.Panel2.RightToLeft = RightToLeft.No;
             splitContainer1.RightToLeft = RightToLeft.No;
             splitContainer1.Size = new Size(977, 295);
             splitContainer1.SplitterDistance = 500;
             splitContainer1.TabIndex = 2;
+            // 
+            // groupBox1
+            // 
             groupBox1.BackColor = Color.FromArgb(0, 0, 64);
             groupBox1.Controls.Add(flowLayoutPanel1);
             groupBox1.Dock = DockStyle.Fill;
@@ -103,6 +121,9 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Dados Computador";
+            // 
+            // flowLayoutPanel1
+            // 
             flowLayoutPanel1.Controls.Add(groupBox3);
             flowLayoutPanel1.Controls.Add(groupBox4);
             flowLayoutPanel1.Controls.Add(groupBox6);
@@ -113,6 +134,9 @@
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(494, 273);
             flowLayoutPanel1.TabIndex = 0;
+            // 
+            // groupBox3
+            // 
             groupBox3.Controls.Add(txtProcessador);
             groupBox3.ForeColor = Color.White;
             groupBox3.Location = new Point(3, 3);
@@ -121,10 +145,16 @@
             groupBox3.TabIndex = 0;
             groupBox3.TabStop = false;
             groupBox3.Text = "Processador";
+            // 
+            // txtProcessador
+            // 
             txtProcessador.Location = new Point(6, 18);
             txtProcessador.Name = "txtProcessador";
             txtProcessador.Size = new Size(476, 23);
             txtProcessador.TabIndex = 0;
+            // 
+            // groupBox4
+            // 
             groupBox4.Controls.Add(txtPlacaDeVideo);
             groupBox4.ForeColor = Color.White;
             groupBox4.Location = new Point(3, 56);
@@ -133,10 +163,16 @@
             groupBox4.TabIndex = 1;
             groupBox4.TabStop = false;
             groupBox4.Text = "Placa de Video";
+            // 
+            // txtPlacaDeVideo
+            // 
             txtPlacaDeVideo.Location = new Point(6, 18);
             txtPlacaDeVideo.Name = "txtPlacaDeVideo";
             txtPlacaDeVideo.Size = new Size(476, 23);
             txtPlacaDeVideo.TabIndex = 0;
+            // 
+            // groupBox6
+            // 
             groupBox6.Controls.Add(comboRam);
             groupBox6.ForeColor = Color.White;
             groupBox6.Location = new Point(3, 109);
@@ -145,12 +181,18 @@
             groupBox6.TabIndex = 2;
             groupBox6.TabStop = false;
             groupBox6.Text = "Memoria Ram";
+            // 
+            // comboRam
+            // 
             comboRam.FormattingEnabled = true;
             comboRam.Items.AddRange(new object[] { "1", "2", "4", "8", "16", "32", "64", "128" });
             comboRam.Location = new Point(6, 18);
             comboRam.Name = "comboRam";
             comboRam.Size = new Size(476, 23);
             comboRam.TabIndex = 0;
+            // 
+            // groupBox9
+            // 
             groupBox9.Controls.Add(nmValorHora);
             groupBox9.ForeColor = Color.White;
             groupBox9.Location = new Point(3, 162);
@@ -159,10 +201,16 @@
             groupBox9.TabIndex = 3;
             groupBox9.TabStop = false;
             groupBox9.Text = "Valor Hora";
+            // 
+            // nmValorHora
+            // 
             nmValorHora.Location = new Point(6, 18);
             nmValorHora.Name = "nmValorHora";
             nmValorHora.Size = new Size(476, 23);
             nmValorHora.TabIndex = 0;
+            // 
+            // groupBox7
+            // 
             groupBox7.Controls.Add(numValorCorujao);
             groupBox7.ForeColor = Color.White;
             groupBox7.Location = new Point(3, 215);
@@ -171,10 +219,16 @@
             groupBox7.TabIndex = 4;
             groupBox7.TabStop = false;
             groupBox7.Text = "Valor Corujão";
+            // 
+            // numValorCorujao
+            // 
             numValorCorujao.Location = new Point(6, 18);
             numValorCorujao.Name = "numValorCorujao";
             numValorCorujao.Size = new Size(476, 23);
             numValorCorujao.TabIndex = 0;
+            // 
+            // groupBox2
+            // 
             groupBox2.BackColor = Color.FromArgb(0, 0, 64);
             groupBox2.Controls.Add(flowLayoutPanel2);
             groupBox2.Dock = DockStyle.Fill;
@@ -185,6 +239,9 @@
             groupBox2.TabIndex = 0;
             groupBox2.TabStop = false;
             groupBox2.Text = "Dados Compra";
+            // 
+            // flowLayoutPanel2
+            // 
             flowLayoutPanel2.Controls.Add(groupBox8);
             flowLayoutPanel2.Controls.Add(groupBox11);
             flowLayoutPanel2.Controls.Add(groupBox10);
@@ -194,6 +251,9 @@
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(467, 273);
             flowLayoutPanel2.TabIndex = 0;
+            // 
+            // groupBox8
+            // 
             groupBox8.Controls.Add(dateCompra);
             groupBox8.ForeColor = Color.White;
             groupBox8.Location = new Point(3, 3);
@@ -202,10 +262,16 @@
             groupBox8.TabIndex = 0;
             groupBox8.TabStop = false;
             groupBox8.Text = "Data de compra";
+            // 
+            // dateCompra
+            // 
             dateCompra.Location = new Point(6, 18);
             dateCompra.Name = "dateCompra";
             dateCompra.Size = new Size(449, 23);
             dateCompra.TabIndex = 0;
+            // 
+            // groupBox11
+            // 
             groupBox11.Controls.Add(numValor);
             groupBox11.ForeColor = Color.White;
             groupBox11.Location = new Point(3, 56);
@@ -214,10 +280,17 @@
             groupBox11.TabIndex = 1;
             groupBox11.TabStop = false;
             groupBox11.Text = "Valor";
+            // 
+            // numValor
+            // 
             numValor.Location = new Point(6, 18);
+            numValor.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numValor.Name = "numValor";
             numValor.Size = new Size(449, 23);
             numValor.TabIndex = 0;
+            // 
+            // groupBox10
+            // 
             groupBox10.Controls.Add(txtFornecedor);
             groupBox10.ForeColor = Color.White;
             groupBox10.Location = new Point(3, 109);
@@ -226,10 +299,16 @@
             groupBox10.TabIndex = 2;
             groupBox10.TabStop = false;
             groupBox10.Text = "Fornecedor";
+            // 
+            // txtFornecedor
+            // 
             txtFornecedor.Location = new Point(6, 18);
             txtFornecedor.Name = "txtFornecedor";
             txtFornecedor.Size = new Size(449, 23);
             txtFornecedor.TabIndex = 0;
+            // 
+            // groupBox12
+            // 
             groupBox12.Controls.Add(txtNota);
             groupBox12.ForeColor = Color.White;
             groupBox12.Location = new Point(3, 162);
@@ -238,10 +317,16 @@
             groupBox12.TabIndex = 3;
             groupBox12.TabStop = false;
             groupBox12.Text = "Nota Fiscal";
+            // 
+            // txtNota
+            // 
             txtNota.Location = new Point(6, 18);
             txtNota.Name = "txtNota";
             txtNota.Size = new Size(449, 23);
             txtNota.TabIndex = 0;
+            // 
+            // frmComprarComputador
+            // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(977, 340);
